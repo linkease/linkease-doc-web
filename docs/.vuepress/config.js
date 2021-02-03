@@ -1,4 +1,4 @@
-module.exports = {
+module.exports = ctx => ({
     host: "0.0.0.0",
     port: 8080,
     dest: "build",
@@ -16,15 +16,15 @@ module.exports = {
     // 多语言
     locales: {
         '/': {
-            lang: '简体中文',
+            lang: 'zh-CN',
             title: 'DDNSTO',
-            description: 'DDNSTO内网穿透',
+            description: 'DDNSTO内网穿透'
         },
         '/en/': {
-            lang: 'English',
+            lang: 'en-US',
             title: 'DDNSTO',
             description: 'DDNSTO'
-        },
+        }
     },
     themeConfig: {
         // 站点logo
@@ -81,9 +81,9 @@ module.exports = {
 
         },
         // 最后更新时间
-        lastUpdated: 'Last Updated', // string | boolean
+        // lastUpdated: 'Last Updated', // string | boolean
         // 搜索
         // search: false,
         // searchMaxSuggestions: 10
-    }
-}
+    },
+})
