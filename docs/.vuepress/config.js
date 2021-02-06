@@ -27,16 +27,10 @@ module.exports = ctx => ({
             // title: 'DDNSTO',
             description: 'DDNSTO内网穿透'
         },
-        '/en/': {
-            lang: 'en-US',
-            // title: 'DDNSTO',
-            description: 'DDNSTO'
-        }
     },
     themeConfig: {
         // 站点logo
         logo: '/image/logo.png',
-        repo: 'https://github.com/linkease/linkease-doc-web',
         // 页面配置
         locales: {
             // 中文
@@ -51,7 +45,7 @@ module.exports = ctx => ({
                     { text: '指南', link: '/zh/guide/' },
                     { text: '文档', link: '/zh/docs/' },
                     { text: '下载', link: '/zh/download/' },
-                    { text: '个人中心', link: 'https://www.ddnsto.com/#/weixinlogin' },
+                    { text: '登录后台', link: 'https://www.ddnsto.com/#/weixinlogin' },
                 ],
                 sidebar: {
                     '/zh/guide/': [
@@ -71,22 +65,6 @@ module.exports = ctx => ({
                     ]
                 }
             },
-            // 英文
-            '/en/': {
-                label: 'English',
-                selectText: 'Languages',
-                ariaLabel: 'Select language',
-                editLinkText: 'Edit this page on GitHub',
-                lastUpdated: 'Last Updated',
-                nav: [
-                    { text: 'home', link: '/' },
-                    { text: 'guide', link: '/zh/guide/' },
-                    { text: 'docs', link: '/zh/docs/' },
-                    { text: 'account', link: 'https://www.ddnsto.com/#/weixinlogin' },
-                    { text: 'download', link: '/zh/download/' },
-                ],
-            },
-
         },
         // 最后更新时间
         // lastUpdated: 'Last Updated', // string | boolean
