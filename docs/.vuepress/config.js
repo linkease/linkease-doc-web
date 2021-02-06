@@ -4,6 +4,13 @@ module.exports = ctx => ({
     dest: "build",
     // 部署站点的基础路径
     base: "/",
+    configureWebpack: {
+        resolve: {
+            alias: {
+                '@assets': 'public/assets/'
+            }
+        }
+    },
     // 站点标题
     title: 'DDNSTO',
     // 网站的描述
@@ -17,20 +24,19 @@ module.exports = ctx => ({
     locales: {
         '/': {
             lang: 'zh-CN',
-            title: 'DDNSTO',
+            // title: 'DDNSTO',
             description: 'DDNSTO内网穿透'
         },
         '/en/': {
             lang: 'en-US',
-            title: 'DDNSTO',
+            // title: 'DDNSTO',
             description: 'DDNSTO'
         }
     },
     themeConfig: {
         // 站点logo
-        logo: 'https://www.ddnsto.com/linkease/src/image/logo.png',
+        logo: '/image/logo.png',
         repo: 'https://github.com/linkease/linkease-doc-web',
-        smoothScroll: true,
         // 页面配置
         locales: {
             // 中文
@@ -45,6 +51,7 @@ module.exports = ctx => ({
                     { text: '指南', link: '/zh/guide/' },
                     { text: '文档', link: '/zh/docs/' },
                     { text: '下载', link: '/zh/download/' },
+                    { text: '个人中心', link: 'https://www.ddnsto.com/#/weixinlogin' },
                 ],
                 sidebar: {
                     '/zh/guide/': [
@@ -75,6 +82,7 @@ module.exports = ctx => ({
                     { text: 'home', link: '/' },
                     { text: 'guide', link: '/zh/guide/' },
                     { text: 'docs', link: '/zh/docs/' },
+                    { text: 'account', link: 'https://www.ddnsto.com/#/weixinlogin' },
                     { text: 'download', link: '/zh/download/' },
                 ],
             },
