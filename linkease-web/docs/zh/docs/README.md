@@ -14,7 +14,13 @@
 
 2. [存储端下载](https://www.ddnsto.com/linkease/download/#/disk)
 
-![QQ群介绍图.png](https://www.ddnsto.com/linkease/pages/zh-cn/README/QQ%E7%BE%A4%E4%BB%8B%E7%BB%8D%E5%9B%BE.png)
+### 交流群
+
+​												QQ交流群1~4群已满人，请加 5 群，群号: 5652-52506
+
+![img](./README/qq-5.jpeg)
+
+<!-- ![QQ群介绍图.png](https://www.ddnsto.com/linkease/pages/zh-cn/README/QQ%E7%BE%A4%E4%BB%8B%E7%BB%8D%E5%9B%BE.png) -->
 
 ## 易有云 2.0 介绍
 

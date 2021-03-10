@@ -42,8 +42,12 @@ module.exports = ctx => ({
                 lastUpdated: '上次更新',
                 nav: [
                     { text: '首页', link: '/' },
-                    { text: '指南', link: '/zh/guide/' },
+                    // { text: '指南', link: '/zh/guide/' },
                     { text: '文档', link: '/zh/docs/' },
+                    { text: '意见反馈',  items: [
+                        { text: '易有云', link: 'https://wj.qq.com/s2/8108115/efbe' },
+                        { text: '联系我们', link: '' }
+                      ] },
                     { text: '下载', link: 'https://www.ddnsto.com/linkease/download/#/' },
                    // { text: '登录后台', link: 'https://www.ddnsto.com/app/#/weixinlogin' },
                 ],
